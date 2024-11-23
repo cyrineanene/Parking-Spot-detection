@@ -7,7 +7,7 @@ empty = True
 not_empty= False
 
 def empty_or_not(spot_bgr):
-    model = pickle.load(open("model/model.p", "rb"))
+    model = pickle.load(open("model/classifier.p", "rb"))
     flat_data = []
 
     img_resized = resize(spot_bgr, (15, 15, 3))

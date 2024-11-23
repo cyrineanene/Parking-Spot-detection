@@ -3,7 +3,7 @@ from utils import get_parking_spots_boxes
 
 #working on a crop sequence 
 video_path = 'data\data_v\parking_crop_loop.mp4'
-mask = 'data\mask_crop.png'
+mask = 'mask\mask_crop.png'
 
 mask=cv2.imread(mask, 0)
 cap = cv2.VideoCapture(video_path)
